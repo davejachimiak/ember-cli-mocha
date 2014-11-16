@@ -29,6 +29,9 @@ module.exports = {
         return addonContext.addBowerPackageToProject('chai', '~1.9.1');
       })
       .then(function() {
+        return addonContext.addBowerPackageToProject('chai-jquery', '~2.0.0');
+      })
+      .then(function() {
         return addonContext.addBowerPackageToProject('ember-mocha-adapter', '0.2.1');
       })
       .then(function() {
